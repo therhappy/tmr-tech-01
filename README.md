@@ -174,13 +174,15 @@ Run the application locally:
 python -m app.main
 ```
 
-## Running Tests
+## Tests
 
 Run tests with coverage report:
 
 ```bash
 pytest --cov=app tests/app/
 ```
+
+![coveradge-badge for the app/ ](static/coverage.svg)
 
 Some unit tests for the evaluation script are also provided in the `tests/evaluation/` subfolder.
 
