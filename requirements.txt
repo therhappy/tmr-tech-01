@@ -1,0 +1,21 @@
+# Dev & test dependencies
+pytest==8.3.5
+pytest-cov==6.1.1
+
+# App backbone dependencies
+python-dotenv==1.1.0
+fastapi[standard]==0.115.12
+fastapi-cli[standard]>=0.0.5
+starlette==0.46.2
+uvicorn==0.34.2
+
+# Functions dependencies
+--extra-index-url https://download.pytorch.org/whl/cpu # Assume no GPU and force docker image without
+torch==2.7.0
+jq==1.8.0
+langchain==0.3.24
+langchain-openai==0.3.9
+langchain-pinecone==0.2.3
+langgraph==0.3.14
+pinecone[grpc]==5.4.2 # v6 not supported by langchain plugin yet
+sentence-transformers==4.1.0
