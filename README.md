@@ -1,6 +1,6 @@
-# Conversational LLM Application
+# Conversational LLM Application for the FinQA dataset
 
-Short summary
+This is a **temporary reppository** dedicated to a limited time tackling of the Tomoro.AI tech challenge. It is used for sharing purposes and not for version management.
 
 # Implementation Strategy
 
